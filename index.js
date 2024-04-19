@@ -24,6 +24,74 @@ const nestedMuppet = {
   nestedJob: 'Host of The Muppet Show',
   nestedPartner: 'Miss Piggy'
 };
+const {moo,neigh,baa,oink,cluck} = {
+  moo:'cow',
+neigh:'horse',
+baa: 'sheep',
+oink: 'pig',
+cluck:'chicken'
+};
+ 
+console.log(moo);
+const{ bessie, babe, little,dolly}={
+  bessie:'cow',
+  babe:'pig',
+  little:'chicken',
+  dolly:'sheep'
+}
+console.log(bessie)
+
+
+const{pink,blackAndWhite,black}={
+
+  pink:'pig',
+
+  
+
+ blackAndWhite:'cow',
+  black:'sheep'
+}
+const{red,orange,yellow,green,blue,indigo,violet}={
+  red: 'red',
+  orange:'orange',
+  yellow:'yellow',
+  green:'green',
+  blue:'blue',
+  indigo:'indigo',
+  violet:'violet'
+}
+const{r,o,y,g,b,i,v}={
+  r:'red',
+  o:'orange',
+  y:'yellow',
+  g:'green',
+  b:'blue',
+  i:'indigo',
+  v:'violet'
+}
+const {indg}={
+  indg:indigo
+}
+
+const{muppetName,color,song,job,partner}=muppetName
+
+console.log(muppetName);
+console.log(color);
+console.log(song);
+console.log(job);
+console.log(partner)
+
+const{song2,song4, nestedPartner,nestedJob}=nestedMuppet
+console.log(song2)
+console.log(song4)
+
+
+console.log(nestedJob)
+console.log(nestedPartner)
+
+
+
+
 
 // Strings
 
